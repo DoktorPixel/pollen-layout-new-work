@@ -1,0 +1,52 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .primary-title-font {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 110%;
+    color: var(--primary-black);
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+  }
+
+  .hero-section-subtitle {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 128%;
+    letter-spacing: -0.015em;
+
+  }
+
+  .primary-subtitle-font {}
+
+  .primary-description-font {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 122.5%;
+    color: var(--secondary-black);
+    letter-spacing: -0.015em;
+
+  }
+
+  @media (max-width: 1124px) {
+    .primary-title-font {
+      font-size: 48px;
+    }
+
+    .hero-section-subtitle {
+      font-size: 23px;
+      line-height: 34px;
+      letter-spacing: -0.02em;
+    }
+
+
+    .primary-description-font {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 132%;
+    }
+  }

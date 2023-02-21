@@ -1,0 +1,36 @@
+:root {
+    --primary-black: #020202;
+    --secondary-black: #2F2F2F;
+    --green: #6FE0B0;
+    --white: #FFFFFF;
+    --background-white: #E5E5E5;
+}
+
+
+.primary-button {
+
+    border: solid 2px var(--green);
+    padding: 12px;
+    border-radius: 48px;
+    color: var(--white);
+    background-color: var(--green);
+
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.secondary-button {
+    border: solid 2px var(--green);
+    padding: 12px;
+    border-radius: 48px;
+    color: var(--green);
+    background-color: var(--white);
+
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
