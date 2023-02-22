@@ -21,8 +21,6 @@
 
   }
 
-  .primary-subtitle-font {}
-
   .primary-description-font {
     font-weight: 300;
     font-size: 22px;
@@ -30,6 +28,25 @@
     color: var(--secondary-black);
     letter-spacing: -0.015em;
 
+  }
+
+  
+
+  .cards-description {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 131.5%;
+    text-align: center;
+    color: var(--secondary-black);
+  }
+
+
+  .primary-subtitle-font {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 128%;
+    letter-spacing: -0.015em;
+    color: var(--primary-black);
   }
 
   @media (max-width: 1124px) {
@@ -48,5 +65,18 @@
       font-weight: 300;
       font-size: 16px;
       line-height: 132%;
+    }
+
+    .cards-description {
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 110%;
+    }
+    
+
+    .primary-subtitle-font {
+      font-size: 32px;
+      line-height: 110%;
+      letter-spacing: -0.025em;
     }
   }
