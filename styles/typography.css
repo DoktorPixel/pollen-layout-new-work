@@ -30,7 +30,7 @@
 
   }
 
-  
+
 
   .cards-description {
     font-weight: 300;
@@ -47,6 +47,21 @@
     line-height: 128%;
     letter-spacing: -0.015em;
     color: var(--primary-black);
+  }
+
+  .footer-subtitle {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 127.5%;
+    letter-spacing: -0.005em;
+    color: var(--white);
+  }
+
+  .footer-list-item {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 131.5%;
+    color: var(--white);
   }
 
   @media (max-width: 1124px) {
@@ -72,7 +87,7 @@
       font-size: 13px;
       line-height: 110%;
     }
-    
+
 
     .primary-subtitle-font {
       font-size: 32px;

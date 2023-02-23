@@ -1,0 +1,85 @@
+.footer {
+    background-color: var(--primary-black);
+}
+
+.footer-info-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    border-bottom: 2px solid #f50a0a;
+}
+
+.footer-logo-box {
+    display: flex;
+}
+
+.footer-logo-one {
+    background-image: url(../images/footer-campaign-logo.svg);
+
+}
+
+.footer-logo-two {
+    background-image: url(../images/);
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-column {
+
+    margin-left: 64px;
+}
+.footer-subtitle {
+    margin-bottom: 16px;
+}
+
+.footer-list {
+    
+}
+
+.footer-list-item {
+   margin-bottom: 8px; 
+}
+
+.footer-contacts {}
+
+.footer-contacts-item {
+    display: flex;
+
+}
+
+.footer-tel {
+    background-image: url(../images/Phone.svg);
+    display: block;
+    flex-direction: row;
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    margin-right: 12px;
+}
+
+.footer-mail {
+    background-image: url(../images/Message.svg);
+    display: block;
+    flex-direction: row;
+    width: 16px;
+    height: 12px;
+    background-size: cover;
+    margin-right: 12px;
+}
+
+.footer-address {
+
+    background-image: url(../images/Pin.svg);
+    display: block;
+    flex-direction: row;
+    width: 14px;
+    height: 16px;
+    background-size: cover;
+    margin-right: 12px;
+    max-width: 256px;
+    box-sizing: border-box;
+    
+}
+.footer-copiriting {}

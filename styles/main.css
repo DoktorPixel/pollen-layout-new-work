@@ -1,8 +1,6 @@
 .page-wrapper {
     max-width: 1124px;
-    /* width: 100%; */
-
-    margin: 0 108px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -11,7 +9,6 @@
     display: flex;
     align-items: center;
     gap: 24px;
-    /* justify-content: space-around; */
     margin-bottom: 152px;
 }
 
@@ -67,10 +64,9 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
 }
-
 
 .demo-line {
     position: absolute;
@@ -81,6 +77,7 @@
     width: 100%;
     z-index: -1;
 }
+
 
 .demo-icon {
     display: flex;
@@ -94,13 +91,15 @@
 
 }
 
+
 .demo-description {
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 64px;
 }
+
 
 .demo-description p {
     width: 184px;
@@ -109,17 +108,22 @@
 
 .demo-button-box {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+    margin-bottom: 152px;
 }
 
 .demo-section-button {
     width: 288px;
-    margin: 0 auto;
+    height: 56px;
+    text-align: center;
+
 }
 
+
+
 @media screen and (max-width: 1124px) {
-    .page-wrapper {
-        padding: 0 15px;
-    }
 
     .cards-section {
         display: flex;
@@ -143,6 +147,10 @@
         display: flex;
         flex-direction: column;
 
+    }
+
+    .coverage {
+        margin-bottom: 88px;
     }
 
     .coverage-description {
@@ -173,10 +181,6 @@
         height: 140px;
     }
 
-    .demo-icon:nth-child(3) {
-        margin-bottom: 0
-    }
-
     .demo-icon img {
         width: 56px;
         height: 56px;
@@ -195,14 +199,7 @@
         align-items: center;
         margin-bottom: 40px;
         height: 140px;
-    }
 
-    .demo-description p span {
-        display: block;
-    }
-
-    .demo-description p:last-child {
-        margin-bottom: 0;
     }
 
     .demo-line {
@@ -212,5 +209,26 @@
         bottom: 0;
         height: 100%;
         transform: translate(-50%, 0);
+    }
+
+    .demo-icon:nth-child(3) {
+        margin-bottom: 0
+    }
+
+    .demo-description p:last-child {
+        margin-bottom: 0;
+    }
+
+    .demo-section-button {
+        width: 200px;
+        height: 48px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 13px;
+
+    }
+
+    .demo-button-box {
+        margin-bottom: 88px;
     }
 }
