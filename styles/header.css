@@ -4,6 +4,8 @@
     align-items: center;
     padding: 40px 0;
 }
+.header a {
+        color: inherit}
 
 .header-menu-container {
     display: flex;
@@ -25,7 +27,6 @@
     display: flex;
     align-items: center;
 }
-
 
 .header-nav-icon {
     display: block;

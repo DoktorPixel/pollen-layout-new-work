@@ -53,8 +53,6 @@
     margin-bottom: 16px;
 }
 
-.footer-list {}
-
 .footer-list-item {
     margin-bottom: 8px;
 }
@@ -63,9 +61,6 @@
     display: flex;
     justify-content: flex-end;
 }
-
-.footer-contacts {}
-
 
 .footer-contacts-item {
     display: flex;
@@ -195,7 +190,9 @@
         border-bottom: 1px solid var(--footer-line);
     }
 
-    .teh {padding-top: 0;}
+    .teh {
+        padding-top: 0;
+    }
 
     .footer-contacts-line {
         padding-top: 50px;

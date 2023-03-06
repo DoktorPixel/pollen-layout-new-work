@@ -36,7 +36,6 @@
 
 }
 
-
 @media screen and (max-width: 1124px) {
     .hero-section {
         flex-direction: column-reverse;

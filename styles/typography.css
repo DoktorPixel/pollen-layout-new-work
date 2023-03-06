@@ -30,8 +30,6 @@
 
   }
 
-
-
   .cards-description {
     font-weight: 300;
     font-size: 20px;
@@ -39,7 +37,6 @@
     text-align: center;
     color: var(--secondary-black);
   }
-
 
   .primary-subtitle-font {
     font-weight: 700;
@@ -99,7 +96,6 @@
       line-height: 110%;
     }
 
-
     .primary-subtitle-font {
       font-size: 32px;
       line-height: 110%;
@@ -117,7 +113,4 @@
     .footer-copiriting {
       font-size: 13px;
     }
-    /* .footer-copiriting-list {
-      flex-direction: column;
-    } */
   }
